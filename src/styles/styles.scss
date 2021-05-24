@@ -6,7 +6,11 @@
 //      a. list
 //      b. counters 
 // 5. footer 
-
+// 0. default
+* {
+    padding: 0;
+    margin: 0;
+}
 // 1. variables
 // 2. mixins
 // 3. body
@@ -14,6 +18,30 @@ body {
     background-image: url(../images/bg-stars.svg);
 }
 // 4. app
+h2 {
+    text-align: center;
+}
 //      a. list
+#countdown-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .2em;
+}
 //      b. counters 
 // 5. footer 
+footer {
+    background-image: url(../images/pattern-hills.svg);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    img {
+        z-index: 2;
+        padding: 20px;
+    }
+}
