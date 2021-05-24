@@ -5,19 +5,38 @@
 
 body {
   background-image: url(../images/bg-stars.svg);
+  background-color: #1e1f29;
 }
 
 h2 {
   text-align: center;
+  color: white;
 }
 
 #countdown-container {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  gap: .2em;
+}
+
+.time-box {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 4px;
+  background-color: #343650;
+  color: #fb6087;
+}
+
+.time-unit {
+  color: #8486a9;
+  font-size: 14px;
 }
 
 footer {

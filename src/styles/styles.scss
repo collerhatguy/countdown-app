@@ -23,19 +23,35 @@ $font-size: 14px;
 // 3. body
 body {
     background-image: url(../images/bg-stars.svg);
+    background-color: $blue-200;
 }
 // 4. app
 h2 {
     text-align: center;
+    color: $white;
 }
 //      a. list
 #countdown-container {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .2em;
 }
 //      b. counters 
+.counter {
+
+}
+.time-box {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 4px;
+    background-color: $blue-100;
+    color: $soft-red;
+}
+.time-unit {
+    color: $grayish-blue;
+    font-size: $font-size;
+}
 // 5. footer 
 footer {
     background-image: url(../images/pattern-hills.svg);
