@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/countdown-app/static/css/main.f997370a.chunk.css",
+    "main.js": "/countdown-app/static/js/main.7e9009a3.chunk.js",
+    "main.js.map": "/countdown-app/static/js/main.7e9009a3.chunk.js.map",
+    "runtime-main.js": "/countdown-app/static/js/runtime-main.ad270f71.js",
+    "runtime-main.js.map": "/countdown-app/static/js/runtime-main.ad270f71.js.map",
+    "static/js/2.dbdc346b.chunk.js": "/countdown-app/static/js/2.dbdc346b.chunk.js",
+    "static/js/2.dbdc346b.chunk.js.map": "/countdown-app/static/js/2.dbdc346b.chunk.js.map",
+    "index.html": "/countdown-app/index.html",
+    "static/css/main.f997370a.chunk.css.map": "/countdown-app/static/css/main.f997370a.chunk.css.map",
+    "static/js/2.dbdc346b.chunk.js.LICENSE.txt": "/countdown-app/static/js/2.dbdc346b.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/countdown-app/static/media/pattern-hills.815d688f.svg",
+    "static/media/icon-facebook.a9208377.svg": "/countdown-app/static/media/icon-facebook.a9208377.svg",
+    "static/media/icon-instagram.b94ff26a.svg": "/countdown-app/static/media/icon-instagram.b94ff26a.svg",
+    "static/media/icon-pinterest.ea0db8e7.svg": "/countdown-app/static/media/icon-pinterest.ea0db8e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad270f71.js",
+    "static/js/2.dbdc346b.chunk.js",
+    "static/css/main.f997370a.chunk.css",
+    "static/js/main.7e9009a3.chunk.js"
+  ]
+}
