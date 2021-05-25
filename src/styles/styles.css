@@ -28,11 +28,14 @@ h2 {
 }
 
 .time-box {
-  height: 15vw;
+  height: 9vw;
   width: 15vw;
   border-radius: 4px;
   background-color: #343650;
   color: #fb6087;
+  text-align: center;
+  padding-top: 6vw;
+  font-size: 24px;
 }
 
 .time-box::after {

@@ -43,11 +43,14 @@ h2 {
 
 }
 .time-box {
-    height: 15vw;
+    height: 9vw;
     width: 15vw;
     border-radius: 4px;
     background-color: $blue-100;
     color: $soft-red;
+    text-align: center;
+    padding-top: 6vw;
+    font-size: $font-size + 10px;
     &::after {
         width: 100%;
         height: 50%;
