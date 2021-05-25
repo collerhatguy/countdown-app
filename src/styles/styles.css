@@ -35,6 +35,12 @@ h2 {
   color: #fb6087;
 }
 
+.time-box::after {
+  width: 100%;
+  height: 50%;
+  background-color: #343650;
+}
+
 .time-unit {
   color: #8486a9;
   font-size: 14px;
