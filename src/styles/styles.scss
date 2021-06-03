@@ -7,9 +7,11 @@
 //      b. counters 
 // 5. footer 
 // 0. default
-* {
+* { 
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 // 1. variables
 $grayish-blue: hsl(237, 18%, 59%);
