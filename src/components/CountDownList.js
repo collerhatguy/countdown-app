@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Counter from "./Counter";
 
 export default function CountDownList() {
-    const futureDate = new Date("Jun 25, 2031 16:37:52").getTime();
+    const futureDate = new Date("Jun 5, 2022 16:37:52").getTime();
     const [currentDate, setCurrentDate] = useState(new Date().getTime());
     const [timeLeft, setTimeLeft] = useState(futureDate - currentDate);
     const [daysLeft, setDaysLeft] = useState(Math.floor(timeLeft / (1000 * 60 * 60 * 24)));
@@ -23,7 +23,7 @@ export default function CountDownList() {
     }, [secondPassed])
 
     return (
-        <div id="countdown-container">
+        <section id="countdown-container">
             <Counter 
                 timeUnit={"Days"} 
                 value={daysLeft}
@@ -40,6 +40,6 @@ export default function CountDownList() {
                 timeUnit={"Seconds"} 
                 value={secondsLeft}
             />
-        </div>
+        </section>
     )
 }
