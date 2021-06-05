@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/countdown-app/static/css/main.f997370a.chunk.css",
-    "main.js": "/countdown-app/static/js/main.846f856f.chunk.js",
-    "main.js.map": "/countdown-app/static/js/main.846f856f.chunk.js.map",
+    "main.css": "/countdown-app/static/css/main.c3e4f3b4.chunk.css",
+    "main.js": "/countdown-app/static/js/main.318f60d1.chunk.js",
+    "main.js.map": "/countdown-app/static/js/main.318f60d1.chunk.js.map",
     "runtime-main.js": "/countdown-app/static/js/runtime-main.ad270f71.js",
     "runtime-main.js.map": "/countdown-app/static/js/runtime-main.ad270f71.js.map",
     "static/js/2.dbdc346b.chunk.js": "/countdown-app/static/js/2.dbdc346b.chunk.js",
     "static/js/2.dbdc346b.chunk.js.map": "/countdown-app/static/js/2.dbdc346b.chunk.js.map",
     "index.html": "/countdown-app/index.html",
-    "static/css/main.f997370a.chunk.css.map": "/countdown-app/static/css/main.f997370a.chunk.css.map",
+    "static/css/main.c3e4f3b4.chunk.css.map": "/countdown-app/static/css/main.c3e4f3b4.chunk.css.map",
     "static/js/2.dbdc346b.chunk.js.LICENSE.txt": "/countdown-app/static/js/2.dbdc346b.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/countdown-app/static/media/pattern-hills.815d688f.svg",
     "static/media/icon-facebook.a9208377.svg": "/countdown-app/static/media/icon-facebook.a9208377.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ad270f71.js",
     "static/js/2.dbdc346b.chunk.js",
-    "static/css/main.f997370a.chunk.css",
-    "static/js/main.846f856f.chunk.js"
+    "static/css/main.c3e4f3b4.chunk.css",
+    "static/js/main.318f60d1.chunk.js"
   ]
 }
