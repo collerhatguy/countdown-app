@@ -6,13 +6,11 @@
 //      a. list
 //      b. counters 
 // 5. footer 
+
+
 // 0. default
-* { 
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-}
+@import "./reset";
+
 // 1. variables
 $grayish-blue: hsl(237, 18%, 59%);
 $soft-red: hsl(345, 95%, 68%);
@@ -20,7 +18,7 @@ $white: hsl(0, 0%, 100%);
 $blue-100: hsl(236, 21%, 26%);
 $blue-200: hsl(235, 16%, 14%);
 $blue-300: hsl(234, 17%, 12%);
-$font-size: 14px;
+$font-size: 1rem;
 // 2. mixins
 // 3. body
 body {
@@ -31,7 +29,8 @@ body {
 h2 {
     text-align: center;
     color: $white;
-    margin: 2em;
+    margin: 2rem;
+    font-size: 2rem;
 }
 //      a. list
 #countdown-container {
@@ -39,25 +38,37 @@ h2 {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin-top: 10%;
 }
 //      b. counters 
 .counter {
-
+    width: 15%;
 }
 .time-box {
-    height: 9vw;
-    width: 15vw;
+    position: relative;
+    width: 100%;
+    height: 100%;
     border-radius: 4px;
     background-color: $blue-100;
     color: $soft-red;
     text-align: center;
-    padding-top: 6vw;
-    font-size: $font-size + 10px;
-    &::after {
-        width: 100%;
-        height: 50%;
-        background-color: $blue-100;
+    font-size: $font-size + 1rem;
+    padding: 25% 0% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    span {
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        height: min-content;
     }
+    // &::after {
+    //     width: 100%;
+    //     height: 50%;
+    //     background-color: $blue-100;
+    // }
 }
 .time-unit {
     color: $grayish-blue;
@@ -70,12 +81,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
     bottom: 0;
     left: 0;
     right: 0;
     img {
         z-index: 2;
-        padding: 20px;
+        padding: 2rem;
     }
 }
