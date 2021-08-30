@@ -9,9 +9,9 @@ function App() {
     <main className="App">
       <CountDownList />
       <footer>
-        <img src={facebookImage} />
-        <img src={instagramImage} />
-        <img src={pinterestImage} />
+        <img src={facebookImage} alt="FaceBook"/>
+        <img src={instagramImage} alt="Instagram"/>
+        <img src={pinterestImage} alt="Pinterest"/>
       </footer>
     </main>
   );
